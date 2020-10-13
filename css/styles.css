@@ -179,13 +179,14 @@ a {
   #email {
     font-family: "Josefin Sans", sans-serif;
     width: 320px;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
     text-align: right;
+    margin-left: 5%;
   }
 
   img {

@@ -520,7 +520,7 @@ a {
     text-align: left;
     margin-left: 6%;
   }
-  
+
   .right-side {
     font-family: "Josefin Sans", sans-serif;
     width: 1314px;
@@ -533,7 +533,7 @@ a {
     text-align: right;
     margin-left: 5%;
   }
-  
+
   #email {
     font-family: "Josefin Sans", sans-serif;
     width: 1314px;
@@ -546,11 +546,11 @@ a {
     text-align: right;
     margin-left: 5%;
   }
-  
+
   span {
     color: #26a8fc;
   }
-  
+
   img {
     width: 400px;
     height: 400px;
@@ -558,7 +558,7 @@ a {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   #twitter {
     width: 375px;
     height: 107px;
@@ -573,11 +573,11 @@ a {
     text-decoration: none;
     color: #26a8fc;
   }
-  
+
   #twitter:hover {
     color: black;
   }
-  
+
   #facebook {
     width: 581px;
     height: 100px;
@@ -592,11 +592,11 @@ a {
     text-decoration: none;
     color: black;
   }
-  
+
   #facebook:hover {
     color: #26a8fc;
   }
-  
+
   #linkedin {
     width: 369px;
     height: 100px;
@@ -611,11 +611,11 @@ a {
     text-decoration: none;
     color: #26a8fc;
   }
-  
+
   #linkedin:hover {
     color: black;
   }
-  
+
   #instagram {
     width: 428px;
     height: 100px;
@@ -630,151 +630,28 @@ a {
     text-decoration: none;
     color: black;
   }
-  
+
   #instagram:hover {
     color: #26a8fc;
   }
-  
+
   #social {
     text-align: center;
   }
-  
+
   a {
     margin: 2.5%;
   }
-  
+
   #copyright {
     font-family: "Josefin Sans", sans-serif;
     font-size: 50px;
     text-align: center;
   }
-  
-  [aos="fade"] {
-    opacity: 0;
-    transition-property: opacity;
+
+  #footer {
+    margin-top: 3%;
   }
-  
-  [aos="fade"].aos-animate {
-    opacity: 1;
-  }
-  
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (max-width: 600px) {
-    .left-side {
-      font-family: "Josefin Sans", sans-serif;
-      width: 250px;
-      font-size: 50px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: left;
-      margin-left: 6%;
-    }
-  
-    .right-side {
-      font-family: "Josefin Sans", sans-serif;
-      width: 320px;
-      font-size: 50px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: right;
-      margin-left: 5%;
-    }
-  
-    #email {
-      font-family: "Josefin Sans", sans-serif;
-      width: 320px;
-      font-size: 30px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: right;
-    }
-  
-    img {
-      width: 200px;
-      height: 200px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  
-    #twitter {
-      width: 375px;
-      height: 107px;
-      font-family: "Josefin Sans", sans-serif;
-      font-size: 30px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: left;
-      text-decoration: none;
-      color: #26a8fc;
-    }
-  
-    #facebook {
-      width: 581px;
-      height: 100px;
-      font-family: "Josefin Sans", sans-serif;
-      font-size: 30px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: left;
-      text-decoration: none;
-      color: black;
-    }
-  
-    #linkedin {
-      width: 369px;
-      height: 100px;
-      font-family: "Josefin Sans", sans-serif;
-      font-size: 30px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: left;
-      text-decoration: none;
-      color: #26a8fc;
-    }
-  
-    #instagram {
-      width: 428px;
-      height: 100px;
-      font-family: "Josefin Sans", sans-serif;
-      font-size: 30px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: left;
-      text-decoration: none;
-      color: black;
-    }
-  
-    a {
-      margin: 2.5%;
-    }
-  
-    #copyright {
-      font-family: "Josefin Sans", sans-serif;
-      font-size: 40px;
-      text-align: center;
-    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -791,7 +668,7 @@ a {
     text-align: left;
     margin-left: 6%;
   }
-  
+
   .right-side {
     font-family: "Josefin Sans", sans-serif;
     width: 1314px;
@@ -804,7 +681,7 @@ a {
     text-align: right;
     margin-left: 5%;
   }
-  
+
   #email {
     font-family: "Josefin Sans", sans-serif;
     width: 1314px;
@@ -817,11 +694,11 @@ a {
     text-align: right;
     margin-left: 5%;
   }
-  
+
   span {
     color: #26a8fc;
   }
-  
+
   img {
     width: 400px;
     height: 400px;
@@ -829,7 +706,7 @@ a {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   #twitter {
     width: 375px;
     height: 107px;
@@ -844,11 +721,11 @@ a {
     text-decoration: none;
     color: #26a8fc;
   }
-  
+
   #twitter:hover {
     color: black;
   }
-  
+
   #facebook {
     width: 581px;
     height: 100px;
@@ -863,11 +740,11 @@ a {
     text-decoration: none;
     color: black;
   }
-  
+
   #facebook:hover {
     color: #26a8fc;
   }
-  
+
   #linkedin {
     width: 369px;
     height: 100px;
@@ -882,11 +759,11 @@ a {
     text-decoration: none;
     color: #26a8fc;
   }
-  
+
   #linkedin:hover {
     color: black;
   }
-  
+
   #instagram {
     width: 428px;
     height: 100px;
@@ -901,149 +778,26 @@ a {
     text-decoration: none;
     color: black;
   }
-  
+
   #instagram:hover {
     color: #26a8fc;
   }
-  
+
   #social {
     text-align: center;
   }
-  
+
   a {
     margin: 2.5%;
   }
-  
+
   #copyright {
     font-family: "Josefin Sans", sans-serif;
     font-size: 50px;
     text-align: center;
   }
-  
-  [aos="fade"] {
-    opacity: 0;
-    transition-property: opacity;
+
+  #footer {
+    margin-top: 3%;
   }
-  
-  [aos="fade"].aos-animate {
-    opacity: 1;
-  }
-  
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (max-width: 600px) {
-    .left-side {
-      font-family: "Josefin Sans", sans-serif;
-      width: 250px;
-      font-size: 50px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: left;
-      margin-left: 6%;
-    }
-  
-    .right-side {
-      font-family: "Josefin Sans", sans-serif;
-      width: 320px;
-      font-size: 50px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: right;
-      margin-left: 5%;
-    }
-  
-    #email {
-      font-family: "Josefin Sans", sans-serif;
-      width: 320px;
-      font-size: 30px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: right;
-    }
-  
-    img {
-      width: 200px;
-      height: 200px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  
-    #twitter {
-      width: 375px;
-      height: 107px;
-      font-family: "Josefin Sans", sans-serif;
-      font-size: 30px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: left;
-      text-decoration: none;
-      color: #26a8fc;
-    }
-  
-    #facebook {
-      width: 581px;
-      height: 100px;
-      font-family: "Josefin Sans", sans-serif;
-      font-size: 30px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: left;
-      text-decoration: none;
-      color: black;
-    }
-  
-    #linkedin {
-      width: 369px;
-      height: 100px;
-      font-family: "Josefin Sans", sans-serif;
-      font-size: 30px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: left;
-      text-decoration: none;
-      color: #26a8fc;
-    }
-  
-    #instagram {
-      width: 428px;
-      height: 100px;
-      font-family: "Josefin Sans", sans-serif;
-      font-size: 30px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: left;
-      text-decoration: none;
-      color: black;
-    }
-  
-    a {
-      margin: 2.5%;
-    }
-  
-    #copyright {
-      font-family: "Josefin Sans", sans-serif;
-      font-size: 40px;
-      text-align: center;
-    }
 }

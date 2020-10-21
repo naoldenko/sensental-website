@@ -1,66 +1,4 @@
-.left-side {
-  font-family: "Josefin Sans", sans-serif;
-  width: 1173px;
-  font-size: 90px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  margin-left: 6%;
-}
-
-.right-side {
-  font-family: "Josefin Sans", sans-serif;
-  width: 1314px;
-  font-size: 90px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: right;
-  margin-left: 5%;
-}
-
-#email {
-  font-family: "Josefin Sans", sans-serif;
-  width: 1314px;
-  font-size: 90px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: right;
-  margin-left: 5%;
-}
-
 span {
-  color: #26a8fc;
-}
-
-img {
-  width: 400px;
-  height: 400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#twitter {
-  width: 375px;
-  height: 107px;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 70px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  text-decoration: none;
   color: #26a8fc;
 }
 
@@ -68,56 +6,11 @@ img {
   color: black;
 }
 
-#facebook {
-  width: 581px;
-  height: 100px;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 70px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  text-decoration: none;
-  color: black;
-}
-
 #facebook:hover {
   color: #26a8fc;
 }
 
-#linkedin {
-  width: 369px;
-  height: 100px;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 70px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  text-decoration: none;
-  color: #26a8fc;
-}
-
 #linkedin:hover {
-  color: black;
-}
-
-#instagram {
-  width: 428px;
-  height: 100px;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 70px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  text-decoration: none;
   color: black;
 }
 
@@ -126,16 +19,6 @@ img {
 }
 
 #social {
-  text-align: center;
-}
-
-a {
-  margin: 2.5%;
-}
-
-#copyright {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 50px;
   text-align: center;
 }
 
@@ -151,42 +34,34 @@ a {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .left-side {
+    width: 280px;
     font-family: "Josefin Sans", sans-serif;
-    width: 250px;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    text-align: left;
     margin-left: 3%;
   }
 
   .right-side {
     font-family: "Josefin Sans", sans-serif;
-    width: 320px;
-    font-size: 50px;
+    width: 280px;
+    font-size: 40px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
     text-align: right;
-    margin-left: 5%;
+    margin-left: 12.5%;
   }
 
   #email {
     font-family: "Josefin Sans", sans-serif;
-    width: 320px;
-    font-size: 28px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: right;
-    margin-left: 1%;
+    font-size: 25px;
+    text-align: center;
   }
 
   img {
@@ -198,8 +73,6 @@ a {
   }
 
   #twitter {
-    width: 375px;
-    height: 107px;
     font-family: "Josefin Sans", sans-serif;
     font-size: 30px;
     font-weight: normal;
@@ -207,14 +80,11 @@ a {
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    text-align: left;
     text-decoration: none;
     color: #26a8fc;
   }
 
   #facebook {
-    width: 581px;
-    height: 100px;
     font-family: "Josefin Sans", sans-serif;
     font-size: 30px;
     font-weight: normal;
@@ -222,14 +92,11 @@ a {
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    text-align: left;
     text-decoration: none;
     color: black;
   }
 
   #linkedin {
-    width: 369px;
-    height: 100px;
     font-family: "Josefin Sans", sans-serif;
     font-size: 30px;
     font-weight: normal;
@@ -237,14 +104,11 @@ a {
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    text-align: left;
     text-decoration: none;
     color: #26a8fc;
   }
 
   #instagram {
-    width: 428px;
-    height: 100px;
     font-family: "Josefin Sans", sans-serif;
     font-size: 30px;
     font-weight: normal;
@@ -252,7 +116,6 @@ a {
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    text-align: left;
     text-decoration: none;
     color: black;
   }
@@ -263,7 +126,7 @@ a {
 
   #copyright {
     font-family: "Josefin Sans", sans-serif;
-    font-size: 40px;
+    font-size: 29px;
     text-align: center;
   }
 }
@@ -299,7 +162,7 @@ a {
   #email {
     font-family: "Josefin Sans", sans-serif;
     width: 520px;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -320,7 +183,7 @@ a {
     width: 375px;
     height: 107px;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -335,7 +198,7 @@ a {
     width: 581px;
     height: 100px;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -350,7 +213,7 @@ a {
     width: 369px;
     height: 100px;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -365,7 +228,7 @@ a {
     width: 428px;
     height: 100px;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -377,7 +240,7 @@ a {
   }
 
   a {
-    margin: 2.5%;
+    margin: 5%;
   }
 
   #copyright {
@@ -418,7 +281,7 @@ a {
   #email {
     font-family: "Josefin Sans", sans-serif;
     width: 650px;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -439,7 +302,7 @@ a {
     width: 375px;
     height: 107px;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -454,7 +317,7 @@ a {
     width: 581px;
     height: 100px;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -469,7 +332,7 @@ a {
     width: 369px;
     height: 100px;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -484,7 +347,7 @@ a {
     width: 428px;
     height: 100px;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -496,7 +359,7 @@ a {
   }
 
   a {
-    margin: 2.5%;
+    margin: 10%;
   }
 
   #copyright {
@@ -510,7 +373,7 @@ a {
 @media only screen and (min-width: 992px) {
   .left-side {
     font-family: "Josefin Sans", sans-serif;
-    width: 1173px;
+    width: 900px;
     font-size: 90px;
     font-weight: normal;
     font-stretch: normal;
@@ -518,12 +381,12 @@ a {
     line-height: normal;
     letter-spacing: normal;
     text-align: left;
-    margin-left: 6%;
+    margin-left: 4.5%;
   }
 
   .right-side {
     font-family: "Josefin Sans", sans-serif;
-    width: 1314px;
+    width: 920px;
     font-size: 90px;
     font-weight: normal;
     font-stretch: normal;
@@ -531,13 +394,12 @@ a {
     line-height: normal;
     letter-spacing: normal;
     text-align: right;
-    margin-left: 5%;
   }
 
   #email {
     font-family: "Josefin Sans", sans-serif;
-    width: 1314px;
-    font-size: 90px;
+    width: 920px;
+    font-size: 70px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -545,10 +407,6 @@ a {
     letter-spacing: normal;
     text-align: right;
     margin-left: 5%;
-  }
-
-  span {
-    color: #26a8fc;
   }
 
   img {
@@ -640,12 +498,12 @@ a {
   }
 
   a {
-    margin: 2.5%;
+    margin: 5%;
   }
 
   #copyright {
     font-family: "Josefin Sans", sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
   }
 

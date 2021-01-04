@@ -22,6 +22,11 @@ span {
   text-align: center;
 }
 
+#ncaa {
+  color: #26a8fc;
+  text-decoration: underline;
+}
+
 [aos="fade"] {
   opacity: 0;
   transition-property: opacity;
@@ -120,7 +125,19 @@ span {
     color: black;
   }
 
-  a {
+  #twitter {
+    margin: 2.5%;
+  }
+
+  #linkedin {
+    margin: 2.5%;
+  }
+
+  #facebook {
+    margin: 2.5%;
+  }
+
+  #instagram {
     margin: 2.5%;
   }
 
@@ -239,8 +256,20 @@ span {
     color: black;
   }
 
-  a {
-    margin: 5%;
+  #twitter {
+    margin: 2.5%;
+  }
+
+  #linkedin {
+    margin: 2.5%;
+  }
+
+  #facebook {
+    margin: 2.5%;
+  }
+
+  #instagram {
+    margin: 2.5%;
   }
 
   #copyright {
@@ -358,8 +387,20 @@ span {
     color: black;
   }
 
-  a {
-    margin: 10%;
+  #twitter {
+    margin: 2.5%;
+  }
+
+  #linkedin {
+    margin: 2.5%;
+  }
+
+  #facebook {
+    margin: 2.5%;
+  }
+
+  #instagram {
+    margin: 2.5%;
   }
 
   #copyright {
@@ -497,8 +538,20 @@ span {
     text-align: center;
   }
 
-  a {
-    margin: 5%;
+  #twitter {
+    margin: 2.5%;
+  }
+
+  #linkedin {
+    margin: 2.5%;
+  }
+
+  #facebook {
+    margin: 2.5%;
+  }
+
+  #instagram {
+    margin: 2.5%;
   }
 
   #copyright {
@@ -645,7 +698,19 @@ span {
     text-align: center;
   }
 
-  a {
+  #twitter {
+    margin: 2.5%;
+  }
+
+  #linkedin {
+    margin: 2.5%;
+  }
+
+  #facebook {
+    margin: 2.5%;
+  }
+
+  #instagram {
     margin: 2.5%;
   }
 

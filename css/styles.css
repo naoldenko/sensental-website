@@ -101,6 +101,10 @@ li {
   margin-right: auto;
 }
 
+#scroll {
+  display: none;
+}
+
 #linkedin-image-team {
   width: 30px;
   height: 30px;
@@ -108,6 +112,13 @@ li {
 }
 
 .text {
+  width: 800px;
+  font-size: 23px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ari-text {
   width: 800px;
   margin-left: auto;
   margin-right: auto;
@@ -126,6 +137,7 @@ li {
 @media only screen and (max-width: 600px) {
   .text {
     width: 300px;
+    font-size: 20px;
   }
 
   #elite {
@@ -150,5 +162,31 @@ li {
   .navbar:hover {
     color: grey;
     font-size: 41px;
+  }
+
+  #ari-text {
+    width: 300px;
+  }
+
+  #scroll {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
+    height: 40px;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-name: scroll;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translate(0px, 0px);
+    }
+
+    100% {
+      transform: translate(0px, 20px);
+    }
   }
 }

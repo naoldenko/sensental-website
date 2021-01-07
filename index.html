@@ -134,14 +134,18 @@
     <h3 data-aos="fade-up">Stay updated with our progress; sign-up to our newsletter below!</h3>
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left;  font-family: "Josefin Sans", sans-serif;}
+	#mc_embed_signup{background:#fff; clear:left;  font-family: "Josefin Sans", sans-serif; width: 500px; margin-left: auto; margin-right: auto;}
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
      #mc_embed_signup input.button {
     background-color: #000;
     font-family: "Josefin Sans", sans-serif;
-    text-align: center;
-}
+    }
+    @media only screen and (max-width: 600px) {
+      #mc_embed_signup {
+        width: 300px;
+      }
+    }
 </style>
 <div id="mc_embed_signup">
 <form action="https://sensental.us2.list-manage.com/subscribe/post?u=371240027ba7fa209d773770f&amp;id=a673f6f199" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>

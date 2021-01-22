@@ -3,6 +3,22 @@ body {
   text-align: center;
 }
 
+#pdf {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 17px;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 10px;
+}
+
+#pdf:hover {
+  background-color: grey;
+}
+
 #logo {
   width: 200px;
   height: 200px;
